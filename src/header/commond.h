@@ -11,6 +11,7 @@
 #include "../CommandFactory/header/CCmdIndexHandler.h"
 #include "../CommandFactory/header/CEraseCaseHandler.h"
 #include "../CommandFactory/header/CWriteCaseHandler.h"
+#include "../CommandFactory/header/CWriteSleepCaseHandler.h"
 #include "../CommandFactory/header/CReadCaseHandler.h"
 #include "../CommandFactory/header/CTestCaseHandler.h"
 #include "../CommandType/header/CCmdIndexReceiver.h"

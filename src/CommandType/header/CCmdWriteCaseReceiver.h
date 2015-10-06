@@ -1,9 +1,4 @@
-/*
- * CCmdWriteCaseReceiver.h
- *
- *  Created on: Feb 25, 2015
- *      Author: vli
- */
+
 
 #ifndef COMMANDTYPE_CCMDWRITECASERECEIVER_H_
 #define COMMANDTYPE_CCMDWRITECASERECEIVER_H_

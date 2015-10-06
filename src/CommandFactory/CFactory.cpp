@@ -24,6 +24,7 @@ CFactory::CFactory(CConcreteCommandAct *_pAct,string _Pathname){
 	mCmdHandler12 = new CSingleFileCaseHandler(_pAct,this->pmUpdateStatus);
 	mCmdHandler13 = new CTwoFileCaseHandler(_pAct,this->pmUpdateStatus);
 	mCmdHandler14 = new CSingleFileDiskCaseHandler(_pAct,this->pmUpdateStatus);
+	mCmdHandler15 = new CWriteSleepCaseHandler(_pAct,this->pmUpdateStatus);
 
 
 	mCmdHandler1->setNext(mCmdHandler2);
@@ -39,6 +40,7 @@ CFactory::CFactory(CConcreteCommandAct *_pAct,string _Pathname){
 	mCmdHandler11->setNext(mCmdHandler12);
 	mCmdHandler12->setNext(mCmdHandler13);
 	mCmdHandler13->setNext(mCmdHandler14);
+	mCmdHandler14->setNext(mCmdHandler15);
 }
 
 CFactory::~CFactory() {

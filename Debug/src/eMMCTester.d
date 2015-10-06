@@ -38,6 +38,8 @@ src/eMMCTester.d: ../src/eMMCTester.cpp ../src/./header/commond.h \
  ../src/./header/../CommandFactory/header/../../CommandType/header/CCmdInitializationReceiver.h \
  ../src/./header/../CommandFactory/header/CWriteCaseHandler.h \
  ../src/./header/../CommandFactory/header/../../CommandType/header/CCmdWriteCaseReceiver.h \
+ ../src/./header/../CommandFactory/header/CWriteSleepCaseHandler.h \
+ ../src/./header/../CommandFactory/header/../../CommandType/header/CCmdWriteSleepCaseReceiver.h \
  ../src/./header/../CommandFactory/header/CBufferLengthCaseHandler.h \
  ../src/./header/../CommandFactory/header/../../CommandType/header/CCmdBufferLengthCaseReceiver.h \
  ../src/./header/../CommandFactory/header/CDeviceTypeCaseHandler.h \
@@ -51,6 +53,7 @@ src/eMMCTester.d: ../src/eMMCTester.cpp ../src/./header/commond.h \
  ../src/./header/../CommandFactory/header/CCmdIndexHandler.h \
  ../src/./header/../CommandFactory/header/CEraseCaseHandler.h \
  ../src/./header/../CommandFactory/header/CWriteCaseHandler.h \
+ ../src/./header/../CommandFactory/header/CWriteSleepCaseHandler.h \
  ../src/./header/../CommandFactory/header/CReadCaseHandler.h \
  ../src/./header/../CommandFactory/header/CTestCaseHandler.h \
  ../src/./header/../CommandType/header/CCmdIndexReceiver.h
@@ -147,6 +150,10 @@ src/eMMCTester.d: ../src/eMMCTester.cpp ../src/./header/commond.h \
 
 ../src/./header/../CommandFactory/header/../../CommandType/header/CCmdWriteCaseReceiver.h:
 
+../src/./header/../CommandFactory/header/CWriteSleepCaseHandler.h:
+
+../src/./header/../CommandFactory/header/../../CommandType/header/CCmdWriteSleepCaseReceiver.h:
+
 ../src/./header/../CommandFactory/header/CBufferLengthCaseHandler.h:
 
 ../src/./header/../CommandFactory/header/../../CommandType/header/CCmdBufferLengthCaseReceiver.h:
@@ -172,6 +179,8 @@ src/eMMCTester.d: ../src/eMMCTester.cpp ../src/./header/commond.h \
 ../src/./header/../CommandFactory/header/CEraseCaseHandler.h:
 
 ../src/./header/../CommandFactory/header/CWriteCaseHandler.h:
+
+../src/./header/../CommandFactory/header/CWriteSleepCaseHandler.h:
 
 ../src/./header/../CommandFactory/header/CReadCaseHandler.h:
 

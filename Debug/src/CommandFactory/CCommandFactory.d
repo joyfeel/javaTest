@@ -38,6 +38,8 @@ src/CommandFactory/CCommandFactory.d: \
  ../src/CommandFactory/./header/../../CommandType/header/CCmdInitializationReceiver.h \
  ../src/CommandFactory/./header/CWriteCaseHandler.h \
  ../src/CommandFactory/./header/../../CommandType/header/CCmdWriteCaseReceiver.h \
+ ../src/CommandFactory/./header/CWriteSleepCaseHandler.h \
+ ../src/CommandFactory/./header/../../CommandType/header/CCmdWriteSleepCaseReceiver.h \
  ../src/CommandFactory/./header/CBufferLengthCaseHandler.h \
  ../src/CommandFactory/./header/../../CommandType/header/CCmdBufferLengthCaseReceiver.h \
  ../src/CommandFactory/./header/CDeviceTypeCaseHandler.h \
@@ -132,6 +134,10 @@ src/CommandFactory/CCommandFactory.d: \
 ../src/CommandFactory/./header/CWriteCaseHandler.h:
 
 ../src/CommandFactory/./header/../../CommandType/header/CCmdWriteCaseReceiver.h:
+
+../src/CommandFactory/./header/CWriteSleepCaseHandler.h:
+
+../src/CommandFactory/./header/../../CommandType/header/CCmdWriteSleepCaseReceiver.h:
 
 ../src/CommandFactory/./header/CBufferLengthCaseHandler.h:
 

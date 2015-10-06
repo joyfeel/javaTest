@@ -20,7 +20,7 @@
 
 enum cmdTYpe {cmdIndex = 1, testCase, writeCase, readCase, eraseCase
 				, gppCase, eudaCase, resetCase, bufferLenth, deviceTypeCase
-				, singleFileCase, twoFileCase, singleFileDiskCase};
+				, singleFileCase, twoFileCase, singleFileDiskCase, writeSleepCase};
 
 class CHandler {
 protected:

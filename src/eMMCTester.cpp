@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
 	pAct->Action();
 	ReleaseEnv();
 
-	 return 0;
+	return 0;
 }
 
 int CreatEnv(){

@@ -18,6 +18,7 @@ CPP_SRCS += \
 ../src/CommandType/CCmdTestCaseReceiver.cpp \
 ../src/CommandType/CCmdTwoFileCaseReceiver.cpp \
 ../src/CommandType/CCmdWriteCaseReceiver.cpp \
+../src/CommandType/CCmdWriteSleepCaseReceiver.cpp \
 ../src/CommandType/IReceiver.cpp 
 
 OBJS += \
@@ -35,6 +36,7 @@ OBJS += \
 ./src/CommandType/CCmdTestCaseReceiver.o \
 ./src/CommandType/CCmdTwoFileCaseReceiver.o \
 ./src/CommandType/CCmdWriteCaseReceiver.o \
+./src/CommandType/CCmdWriteSleepCaseReceiver.o \
 ./src/CommandType/IReceiver.o 
 
 CPP_DEPS += \
@@ -52,6 +54,7 @@ CPP_DEPS += \
 ./src/CommandType/CCmdTestCaseReceiver.d \
 ./src/CommandType/CCmdTwoFileCaseReceiver.d \
 ./src/CommandType/CCmdWriteCaseReceiver.d \
+./src/CommandType/CCmdWriteSleepCaseReceiver.d \
 ./src/CommandType/IReceiver.d 
 
 

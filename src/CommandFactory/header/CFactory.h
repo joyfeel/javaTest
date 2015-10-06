@@ -27,6 +27,7 @@
 #include "CResetCaseHandler.h"
 #include "CInitializationHandler.h"
 #include "CWriteCaseHandler.h"
+#include "CWriteSleepCaseHandler.h"
 #include "CBufferLengthCaseHandler.h"
 #include "CDeviceTypeCaseHandler.h"
 #include "CSingleFileCaseHandler.h"
@@ -50,6 +51,7 @@ protected:
 	CSingleFileCaseHandler *mCmdHandler12;
 	CTwoFileCaseHandler *mCmdHandler13;
 	CSingleFileDiskCaseHandler *mCmdHandler14;
+	CWriteSleepCaseHandler *mCmdHandler15;
 public:
 	CFactory(CConcreteCommandAct *_pAct,string _Pathname);
 	virtual ~CFactory();

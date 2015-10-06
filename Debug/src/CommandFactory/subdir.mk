@@ -20,7 +20,8 @@ CPP_SRCS += \
 ../src/CommandFactory/CSingleFileDiskCaseHandler.cpp \
 ../src/CommandFactory/CTestCaseHandler.cpp \
 ../src/CommandFactory/CTwoFileCaseHandler.cpp \
-../src/CommandFactory/CWriteCaseHandler.cpp 
+../src/CommandFactory/CWriteCaseHandler.cpp \
+../src/CommandFactory/CWriteSleepCaseHandler.cpp 
 
 OBJS += \
 ./src/CommandFactory/CBufferLengthCaseHandler.o \
@@ -39,7 +40,8 @@ OBJS += \
 ./src/CommandFactory/CSingleFileDiskCaseHandler.o \
 ./src/CommandFactory/CTestCaseHandler.o \
 ./src/CommandFactory/CTwoFileCaseHandler.o \
-./src/CommandFactory/CWriteCaseHandler.o 
+./src/CommandFactory/CWriteCaseHandler.o \
+./src/CommandFactory/CWriteSleepCaseHandler.o 
 
 CPP_DEPS += \
 ./src/CommandFactory/CBufferLengthCaseHandler.d \
@@ -58,7 +60,8 @@ CPP_DEPS += \
 ./src/CommandFactory/CSingleFileDiskCaseHandler.d \
 ./src/CommandFactory/CTestCaseHandler.d \
 ./src/CommandFactory/CTwoFileCaseHandler.d \
-./src/CommandFactory/CWriteCaseHandler.d 
+./src/CommandFactory/CWriteCaseHandler.d \
+./src/CommandFactory/CWriteSleepCaseHandler.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
