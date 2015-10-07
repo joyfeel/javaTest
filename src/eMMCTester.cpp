@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
 
      CConcreteCommandAct *pAct = new CConcreteCommandAct();
      CCommandFactory *mCmdFactory = new CCommandFactory(pAct, stringArgv[0]);
-	 char jsonbuf[4096];
+	 char jsonbuf[65535];
 
 	 if (CreatEnv() != 0){
 		 return 1;
@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 	 string raw;
 	 //read command file
 	 infile.open(stringArgv[1].c_str(),ios::in);
-	 infile.read(jsonbuf, 4096);
+	 infile.read(jsonbuf, 65535);
 	 raw.assign(jsonbuf);
 	 //parser json data
 	 if (reader.parse(raw, value)) {
