@@ -17,6 +17,7 @@
 #include <iomanip>
 #include <unistd.h>
 #include <time.h>
+#include <algorithm>
 
 using namespace std;
 
@@ -40,11 +41,17 @@ const int RPMB_write_multiple_frame_data = 1;
 const int RPMB_read_single_frame_data = 0;
 const int RPMB_read_multiple_frame_data = 1;
 
+const int set_buffer_length = 0;
+const int set_m_delay = 1;
+
 class IReceiver {
 public:
 	IReceiver();
 	virtual ~IReceiver();
 	virtual Json::Value Action() = 0;
 };
+
+
+
 
 #endif /* IRECEIVER_H_ */

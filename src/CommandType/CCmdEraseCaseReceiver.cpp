@@ -27,7 +27,7 @@ Json::Value CCmdEraseCaseReceiver::Action() {
 
 	stringstream streamIndex, streamAddr, streamLength;
 
-	sleep(1);
+	//sleep(1);
 
 	if((pp=popen("sudo find /home/vli/debugfs/mmc0 -name myTest","r")) == NULL){
 		std::cout << "Popen() error: " << std::endl;

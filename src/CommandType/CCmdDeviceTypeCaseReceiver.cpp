@@ -84,7 +84,7 @@ Json::Value CCmdDeviceTypeCaseReceiver::Action() {
 
 
 
-	sleep(1);
+	//sleep(1);
 	system("sudo modprobe -r sdhci_acpi");
 	sleep(1);
 	system("sudo modprobe sdhci_acpi");

@@ -27,3 +27,4 @@ void CBufferLengthCaseHandler::genCommand(Json::Value _value) {
 	pCmdRecever = new CCmdBufferLengthCaseReceiver (_value["CMDINDEX"].asInt(),ArgArray[0].asInt(),_value["ReadFileName"].asCString());
 	pCommand = new CConcreteCommand(this->getCommandAct(),pCmdRecever,this->getUpdateStatus());
 }
+

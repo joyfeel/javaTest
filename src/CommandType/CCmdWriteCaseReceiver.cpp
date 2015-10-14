@@ -78,5 +78,8 @@ Json::Value CCmdWriteCaseReceiver::Action() {
 	value["Argument"] = ArgArray;
 	value["ReadFileName"] = mFileName;
 
+	//sleep(5);
+	//system ("echo 99 > /home/vli/debugfs/mmc0/mmc0\:0001/test");
+
 	return value;
 }

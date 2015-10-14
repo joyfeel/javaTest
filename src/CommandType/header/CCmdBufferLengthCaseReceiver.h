@@ -21,4 +21,7 @@ public:
 	Json::Value Action();
 };
 
+
+
+
 #endif /* COMMANDTYPE_CCMDREADCASERECEIVER_H_ */
